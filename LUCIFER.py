@@ -1111,7 +1111,6 @@ async def _(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\*pjoin"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\*pjoin"))
 @eag.on(events.NewMessage(incoming=True, pattern=r"\*pjoin"))
-@gle.on(events.NewMessage(incoming=True, pattern=r"\*pjoin"))
 @wal.on(events.NewMessage(incoming=True, pattern=r"\*pjoin"))
 @aaa.on(events.NewMessage(incoming=True, pattern=r"\*pjoin"))
 @boy.on(events.NewMessage(incoming=True, pattern=r"\*pjoin"))
