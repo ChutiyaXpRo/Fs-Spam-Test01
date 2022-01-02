@@ -1800,11 +1800,11 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝙏𝙃𝙀 ✘ 𝙂𝙊𝘿𝙎!"
+        text = "𝙏𝙃𝙀 ~ 𝙂𝙊𝘿𝙎!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"Marra ni hu smjha!!\n`{ms}` ms{       𝙏𝙃𝙀 ✘ 𝙂𝙊𝘿𝙎} ")
+        await event.edit(f"Marra ni hu smjha!!\n`{ms}` ms{       𝙏𝙃𝙀 ~ 𝙂𝙊𝘿𝙎} ")
 
 
 
