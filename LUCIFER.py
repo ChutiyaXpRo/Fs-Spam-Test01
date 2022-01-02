@@ -1173,7 +1173,7 @@ async def _(e):
         if len(e.text) > 7:
             bc = yukki[0]
             bc = int(bc)
-            text = "𝐇𝐘𝐏𝐄𝐑 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 𝐋𝐄𝐀𝐕𝐈𝐍𝐆....."
+            text = " 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 𝐋𝐄𝐀𝐕𝐈𝐍𝐆....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
@@ -1800,11 +1800,11 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝙁𝙎 𝙎𝙋𝘼𝙈 𝙊𝙋!"
+        text = "𝙏𝙃𝙀 ✘ 𝙂𝙊𝘿𝙎!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"۞ ᖴIᑎᗩᒪ ՏTᖇIKᗴ Oᑭ ۞\n`{ms}` ms{ALIVE_NAME} ")
+        await event.edit(f"Marra ni hu smjha!!\n`{ms}` ms{       𝙏𝙃𝙀 ✘ 𝙂𝙊𝘿𝙎} ")
 
 
 
