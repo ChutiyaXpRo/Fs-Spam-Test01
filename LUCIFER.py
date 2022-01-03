@@ -1804,8 +1804,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"😈 🇵 🇴 🇳 🇬 !\n`{ms}` 𝗺𝘀")
-
+        await event.edit(f"😈 🇵 🇴 🇳 🇬 !\n`{ms}` 𝗺𝘀\n           𝙏𝙃𝙀 ♕︎ 𝙂𝙊𝘿𝙎 ♕︎ 𝙊𝙋")
 
 
         
@@ -2015,7 +2014,7 @@ async def help(e):
         
 text = """
 
-💥💥 𝙁𝙎 𝙎𝙋𝘼𝙈 𝘽𝙊𝙏 💥💥💥
+💥💥 𝙋𝙍𝙄𝙑𝘼𝙏𝙀 𝙎𝙋𝘼𝙈 𝙍𝙀𝘼𝘿𝙔 💥💥💥
 💥𝗕𝗬 @The_GodLucifer 💥"""
 
 print(text)
